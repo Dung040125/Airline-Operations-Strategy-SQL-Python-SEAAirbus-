@@ -41,6 +41,9 @@ The ERD model manages information on flights, passengers, bookings, tickets, air
 
 ### Database Schema
 Includes main tables such as `AIRPLANE`, `FLIGHT`, `TICKET`, `PASSENGERS_A`, `CLASS_TYPE`, etc., with column details and constraints defined in the SQL script.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e9fe75b7-bd24-40e0-a9fd-d27f62cb6b99" alt="Schema" width="700">
+</p>
 
 ---
 ## Database Implementation with SQL Server
