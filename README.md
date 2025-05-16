@@ -1,8 +1,6 @@
 # SEA-Airline-Operations-Analytics
 Database design, SQL implementation, and Streamlit dashboards for a new Southeast Asian airline (SEAAirbus) to support operational planning and strategic insights, initially focusing on operations between Vietnam, Philippines, and Indonesia.
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/f8af79dc-fd34-40d2-b139-6a57e60981df" alt="SEAAirbus Logo" width="200">
-</p>
+![image](https://github.com/user-attachments/assets/3f9efd2e-0759-4c65-9165-f5efc057bbf9)
 
 ---
 ## Table of Contents
