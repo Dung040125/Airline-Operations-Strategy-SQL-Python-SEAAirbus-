@@ -33,7 +33,9 @@ SEAAirbus, a new premium airline in Southeast Asia (Vietnam, Philippines, Indone
 The ERD model manages information on flights, passengers, bookings, tickets, aircraft, airports, class types, fares, and booking offices.
 *   Main Entities: AIRPLANE, FLIGHT, AIRPORT, CABIN_CREW, TICKET, BOOKING_OFFICE, PASSENGERS_A, PASSENGERS_C, CLASS_TYPE, FARE.
 
-![image](https://github.com/user-attachments/assets/52a1eda8-b5a7-4252-bf51-307e32da9ebd)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/52a1eda8-b5a7-4252-bf51-307e32da9ebd" alt="ER Diagram" width="700">
+</p>
 
 
 ### Database Schema
@@ -53,7 +55,9 @@ Three interactive dashboards were built using Streamlit, querying data from SQL 
 *   **Target Audience:** Local CEOs (Vietnam, Philippines, Indonesia).
 *   **Objective:** Provide an overview of national operational performance (booked flights, revenue growth, profit, cost structure) to guide market-specific development.
 *   **Key Visuals:** Number of Booked Flights by Country, Revenue Growth Rate by Office ID, Profit Area by Country, Revenue and Operating Cost Rate by Country.
-![image](https://github.com/user-attachments/assets/7da3916e-116b-4cbc-aeef-beb3aa3f342c)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7da3916e-116b-4cbc-aeef-beb3aa3f342c" alt="Local CEO Dashboard" width="700">
+</p>
 
 
 *   **Key Insight:** The Philippines leads in bookings and profit, indicating strong potential. Indonesia shows lower figures, requiring tailored strategies for growth. Vietnam demonstrates stability. Revenue growth varies by office and class type, necessitating close monitoring.
@@ -62,16 +66,21 @@ Three interactive dashboards were built using Streamlit, querying data from SQL 
 *   **Target Audience:** Global CEO of SEAAirbus.
 *   **Objective:** Offer a holistic view of business operations, class performance, popular destinations, and overall profitability/revenue to support high-level strategic decisions.
 *   **Key Visuals:** Number of Booked Class, Number of Booked Flight by Destination, Profits by Country over time, Revenue by Type of Ticket.
-![image](https://github.com/user-attachments/assets/d1dfd970-d896-4679-b36c-8860d962c1af)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d1dfd970-d896-4679-b36c-8860d962c1af" alt="CEO Overview Dashboard" width="700">
+</p>
 *   **Key Insight:** Business Class is most popular, aligning with the premium airline positioning, while Private Class, despite fewer tickets, generates the highest revenue due to its high value. The Philippines is the most profitable market. Manila is the top booked route. The Indonesian market presents competitive challenges.
 
 #### Dashboard 3: Customer Analytics
 *   **Target Audience:** Marketing and Customer Service Departments.
 *   **Objective:** Understand passenger demographics (age), class preferences, average ticket prices by country, and weekly booking trends to build effective marketing campaigns and enhance customer service.
 *   **Key Visuals:** Age Classification of Passengers, Average Ticket's Price per Country, Percentage of Flight Classes, Number of Flights per Week (Sep, Oct, Nov) in Each Country.
-![image](https://github.com/user-attachments/assets/791ee86a-a19c-47e4-b9c4-b22fb2009a04)
-![image](https://github.com/user-attachments/assets/10e26e36-bf50-4e32-8a9e-c0e81e13e7dd)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/791ee86a-a19c-47e4-b9c4-b22fb2009a04" alt="Customer Analytics Dashboard 1" width="700">
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/10e26e36-bf50-4e32-8a9e-c0e81e13e7dd" alt="Customer Analytics Dashboard 2" width="700">
+</p>
 
 
 *   **Key Insight:** Passengers are predominantly in their 20s-30s. Average ticket prices vary significantly by country, with Indonesia being the highest. Business Class is the most preferred. Weekly flight bookings fluctuate, providing customers with information for optimal booking times.
@@ -105,9 +114,12 @@ Three interactive dashboards were built using Streamlit, querying data from SQL 
 ### Running the Dashboard Application
 1.  **Clone Repository:** `git clone https://github.com/Dung040125/SEA-Airline-Operations-Analytics` and `cd SEA-Airline-Operations-Analytics`.
 2.  **(Recommended) Create and Activate a Python Virtual Environment.**
-3.  **Install Libraries:** `pip install -r requirements.txt`.
-4.  **Run Dashboard:** `python -m streamlit run finalG6.py`
-5.  **View Dashboard:** Access the URL (usually `http://localhost:8501`) in your browser.
+3.  **Install Libraries:**
+    ```bash
+    pip install streamlit pandas pyodbc matplotlib plotly
+    ```
+5.  **Run Dashboard:** `python -m streamlit run finalG6.py`
+6.  **View Dashboard:** Access the URL (usually `http://localhost:8501`) in your browser.
 
 ## Project Deliverables
 1.  **Entity Relationship Diagram (ERD)** (appeared above)
