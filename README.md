@@ -1,6 +1,7 @@
 # 📊 **Project Title:** SEA Airline Operations & Analytics ✈️
 
-![image](https://github.com/user-attachments/assets/efa5122d-5aa7-4718-84e4-e2922e9f8418) 
+![alt text](https://github.com/user-attachments/assets/9e84b890-db5a-4a60-9a10-0ae780b2a142)
+
 * **Author:** Nguyen Thi Thuy Dung
 * **Date:** 2024-05 
 * **Tools Used:** SQL (SQL Server), Python (Streamlit, Pandas, pyodbc, Matplotlib, Plotly), draw.io 
