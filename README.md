@@ -1,6 +1,7 @@
 # SEA-Airline-Operations-Analytics
 
-![image](https://github.com/user-attachments/assets/3f9efd2e-0759-4c65-9165-f5efc057bbf9)
+![image](https://github.com/user-attachments/assets/9e84b890-db5a-4a60-9a10-0ae780b2a142)
+
 
 SQL database design & Python (Streamlit) dashboards for SEAAirbus, driving operational planning & strategic insights for a new Southeast Asian airline, initially focusing on operations between Vietnam, Philippines, and Indonesia.
 ---
