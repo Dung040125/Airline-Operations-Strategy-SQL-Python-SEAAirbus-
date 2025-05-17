@@ -12,7 +12,7 @@
 - [📂 Dataset Description & Data Structure](#-dataset-description--data-structure)
 - [⚒️ Main Process: Database Design, Implementation & Dashboard Development](#️-main-process-database-design-implementation--dashboard-development) 
 - [🔎 Final Conclusion & Recommendations](#-final-conclusion--recommendations)
-- [🚀 Setup and Usage Instructions](#setup-and-usage-instructions)
+- [🚀 Setup and Usage Instructions](#-setup-and-usage-instructions-)
 - [📂 Project Deliverables](#-project-deliverables)
 - [💡 Design Discussions and Decisions](#-design-discussions-and-decisions) 
 
