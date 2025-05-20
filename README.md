@@ -116,7 +116,7 @@ Three distinct interactive dashboards were developed using Python (Streamlit) to
 
 ---
 
-## 🚀 Setup and Usage Instructions <!-- Đổi tên lại cho nhất quán -->
+## 🚀 Setup and Usage Instructions
 
 ### Prerequisites
 *   SQL Server (compatible version).
