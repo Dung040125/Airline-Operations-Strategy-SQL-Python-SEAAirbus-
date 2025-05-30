@@ -23,12 +23,12 @@
 ### Objective
 📖 **What is this project about? What Business Question will it solve?**
 
-This project focuses on designing and implementing a foundational data system and analytical dashboards for SEAAirbus, a new premium airline targeting key destinations in Southeast Asia (Vietnam, Philippines, Indonesia). The primary goal is to equip SEAAirbus with tools for efficient operational planning and strategic decision-making from its inception.
+This project focuses on designing and implementing a **foundational data system** and **analytical dashboards** for **SEAAirbus**, a new premium airline targeting key destinations in **Southeast Asia** (Vietnam, Philippines, Indonesia). The primary goal is to equip SEAAirbus with tools for efficient **operational planning** and **strategic decision-making** from its inception.
 
-The project aims to answer critical business questions for different stakeholders:
-*   How is our airline performing in specific countries (Vietnam, Philippines, Indonesia) regarding booked flights, revenue growth, profitability, and cost structures?
-*   What is the overall business performance, service class performance, and most popular/profitable routes?
-*   What are passenger demographics, class preferences, average ticket prices, and booking trends?
+The project aims to answer critical **business questions** for different stakeholders:
+1.  How is our airline performing in specific countries (**Vietnam, Philippines, Indonesia**) regarding **booked flights**, **revenue growth**, **profitability**, and **cost structures**?
+2.  What is the **overall business performance**, **service class performance**, and **most popular/profitable routes**?
+3.  What are **passenger demographics**, **class preferences**, **average ticket prices**, and **booking trends**?
 
 👤 **Who is this project for?**
 *   Airline Management (CEOs, Regional Managers)
