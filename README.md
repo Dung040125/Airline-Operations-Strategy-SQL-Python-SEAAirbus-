@@ -1,4 +1,4 @@
-# 📊 **Project Title:** Airline Operations Strategy (SQL + Python – SEAAirbus) ✈️
+# 📊 Airline Operations Strategy (SQL + Python – SEAAirbus) ✈️
 
 ![alt text](https://github.com/user-attachments/assets/9e84b890-db5a-4a60-9a10-0ae780b2a142)
 
