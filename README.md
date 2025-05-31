@@ -23,7 +23,7 @@
 ### Objective
 📖 **What is this project about? What Business Question will it solve?**
 
-This project focuses on designing and implementing a **foundational data system** and **analytical dashboards** for **SEAAirbus**, a new premium airline targeting key destinations in **Southeast Asia** (Vietnam, Philippines, Indonesia). The primary goal is to equip SEAAirbus with tools for efficient **operational planning** and **strategic decision-making** from its inception.
+This project focuses on designing and implementing a **foundational data system** and **analytical dashboards** for **SEAAirbus**, a new premium airline targeting key destinations in **Southeast Asia**. As per the project brief, SEAAirbus aims to initially operate between **two main cities from each of three distinct countries: Vietnam, Philippines, and Indonesia**. The primary goal is to equip SEAAirbus with tools for efficient **operational planning** and **strategic decision-making** from its inception.
 
 The project aims to answer critical **business questions** for different stakeholders:
 1.  How is our airline performing in specific countries (**Vietnam, Philippines, Indonesia**) regarding **booked flights**, **revenue growth**, **profitability**, and **cost structures**?
@@ -80,7 +80,29 @@ Three distinct interactive dashboards were developed using Python (Streamlit) to
     <p align="center">
       <img src="https://github.com/user-attachments/assets/7da3916e-116b-4cbc-aeef-beb3aa3f342c" alt="Local CEO Dashboard" width="700">
     </p>
-*   **Key Findings:** The Philippines leads in bookings and profit, indicating strong potential. Indonesia shows lower booking figures and revenue despite operational costs being covered by revenue, suggesting a need for targeted strategies. Vietnam demonstrates operational stability.
+*   **Key Findings:**
+    1.  **Philippines: Key Growth Driver and High Profitability**
+        *   **Leading in Booked Flights:** The Philippines stands out with the highest number of booked flights (approximately 140 flights), indicating strong market demand or effective customer acquisition strategies.
+        *   **Dominance in Profit Contribution:** This is reinforced by its absolute lead in the **Profit Area**, accounting for **43.7%** of total profit. The strong correlation between high flight volume and a large profit share suggests that the Philippines not only attracts many customers but also efficiently converts operations into profit.
+        *   **Commensurate Revenue and Costs:** The **Revenue and Operating Cost Rate** chart shows that the Philippines has the highest revenue and operating costs. However, the gap between revenue (lighter pink bar) and costs (darker pink bar) is significant, confirming a healthy profit margin.
+        *   ***Narrative for the Philippines CEO:*** "The Philippine market is currently SEAAirbus's spearhead in the region, demonstrating strength in both operational scale and profitability. The current priority is to maintain this growth momentum while seeking opportunities to further optimize operating costs without compromising service quality and expansion capabilities. Deeper analysis of success factors (marketing campaigns, pricing, target audience) is needed to replicate and solidify this position."
+
+    2.  **Vietnam: Strong Competitor, Potential for Profit Optimization**
+        *   **Impressive Number of Booked Flights:** Vietnam closely follows the Philippines in the number of booked flights (approximately 130 flights), only slightly lower, indicating it is also a very dynamic market.
+        *   **Second Largest Profit Contributor:** With **36.8%** in the **Profit Area**, Vietnam is a crucial pillar of profitability for SEAAirbus.
+        *   **Balanced Revenue-Cost Structure:** Similar to the Philippines, Vietnam has the second-highest revenue and operating costs, and also maintains a good profit margin.
+        *   ***Narrative for the Vietnam CEO:*** "Vietnam is proving to be a strategic market with operational performance nearly on par with the leading market. The challenge and opportunity lie in further optimizing the profit margin. Can the cost structure be improved, pricing strategies adjusted for specific segments, or ancillary services promoted to increase revenue per flight? Deeper analysis of customer behavior and the performance of specific offices (e.g., HNOBO on the Revenue Growth Rate chart) will provide direction."
+
+    3.  **Indonesia: Market Requiring Special Attention and Breakthrough Strategies**
+        *   **Lowest Number of Booked Flights:** Indonesia has a significantly lower number of booked flights (approximately 40 flights) compared to the other two markets.
+        *   **Modest Profit Contribution:** This is reflected in its **19.5%** share in the **Profit Area**, the lowest among the three countries.
+        *   **Potentially Lower Profit Margin:** Although both revenue and operating costs in Indonesia are the lowest (consistent with its smaller operational scale), the visual gap between the revenue and cost bars on the **Revenue and Operating Cost Rate** chart appears narrower than in the Philippines and Vietnam, suggesting a profit margin that might be under pressure.
+        *   ***Narrative for the Indonesia CEO:*** "The Indonesian market currently faces several challenges, with significantly lower operational performance and profit contribution. A comprehensive strategy is needed to 'awaken' this market's potential. Questions to address: Is brand recognition strong enough? Is the pricing strategy competitive? Are current routes aligned with market demand? Are operating costs too high relative to revenue? Specific analysis from the **Revenue Growth Rate** chart (e.g., performance of the JKTOBO office) can provide initial clues. This is the time for breakthrough initiatives to increase market share and improve profitability."
+
+    4.  **Insights from Revenue Growth Rate by Office & Ticket Class:**
+        *   **Volatility of Private Class (Red Line):** Revenue from this class shows significant fluctuation across offices, peaking at HNOBO (possibly in Vietnam or a regional office) and QZOBO, but very low elsewhere, like JKTOBO. This suggests Private Class can generate revenue spikes but is unstable, depending on large deals or specific clients.
+        *   **Business Class (Blue Line):** Demonstrates more stability and is a key revenue source, especially at QZOBO.
+        *   **Economy Class (Green Line):** Consistently generates the lowest but most stable revenue across offices.
 
 **Task/Dashboard 2: CEO Overview**
 *   **Objective:** Offer the Global CEO a holistic view of business operations, class performance, popular destinations, and overall profitability/revenue to support high-level strategic decisions.
