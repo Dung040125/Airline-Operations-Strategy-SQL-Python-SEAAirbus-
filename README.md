@@ -106,7 +106,23 @@ Three distinct interactive dashboards were developed using Python (Streamlit) to
     <p align="center">
       <img src="https://github.com/user-attachments/assets/d1dfd970-d896-4679-b36c-8860d962c1af" alt="CEO Overview Dashboard" width="700">
     </p>
-*   **Key Findings:** Business Class is most popular, aligning with the premium airline positioning. Private Class, despite fewer tickets, generates the highest revenue due to its high value. The Philippines is the most profitable market. Manila is the top booked route. The Indonesian market presents competitive challenges.
+*   **Key Findings:**
+*   **Ticket Class: Volume vs. Revenue**
+    *   **Booking Volume:** **Business Class** (~170+) and **Economy Class** (~140+) bookings dominate, indicating popular choices. **Private Class** has very few bookings.
+    *   **Revenue:** Conversely, **Private Class** contributes outstanding revenue (over 1M units), significantly higher than Business Class (~0.2M) and Economy Class.
+    *   *Strategy:* Focus on the high value of Private Class despite low volume, while optimizing profitability from Business and Economy for cash flow.
+
+    **Destinations & Route Network**
+    *   **Most Popular:** **Manila (25.5%)**, **Hanoi (22.0%)**, **Ho Chi Minh City (20.4%)**, and **Quezon (18.9%)** are key destinations, accounting for the majority of flights.
+    *   **Less Popular:** **Jakarta (7.9%)** and **Surabaya (5.3%)** have lower shares, requiring re-evaluation or enhanced marketing.
+    *   *Strategy:* Strengthen core markets, consider strategies for less popular destinations.
+
+    **Profits by Country**
+    *   **Philippines:** Leads in profit (over 0.5M), but shows signs of plateauing/slight decline.
+    *   **Vietnam:** Stable profits, lower than the Philippines, with growth potential.
+    *   **Indonesia:** Lowest profits, needs clear improvement strategies.
+    *   *Strategy:* Maintain strong markets (Philippines), drive growth (Vietnam), and improve performance (Indonesia).
+
 
 **Task/Dashboard 3: Customer Analytics**
 *   **Objective:** Help Marketing and Customer Service understand passenger demographics (age), class preferences, average ticket prices by country, and weekly booking trends to build effective marketing campaigns and enhance customer service.
