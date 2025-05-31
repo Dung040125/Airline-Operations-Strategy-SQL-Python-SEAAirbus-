@@ -73,7 +73,7 @@ This project involved a comprehensive workflow from database conceptualization t
 ### 2️⃣ Dashboard Development (SQL & Python with Streamlit)
 Three distinct interactive dashboards were developed using Python (Streamlit) to query (via SQL) and visualize data from the SQL Server database. Each dashboard was tailored for a specific user role and analytical purpose, leveraging SQL techniques like `GROUP BY`, `ORDER BY`, `JOIN`, and subqueries.
 
-**Task/Dashboard 1: Local CEO Insights**
+**Visual Summary 1: Local CEO Insights**
 *   **Objective:** Provide Local CEOs (Vietnam, Philippines, Indonesia) with an overview of their respective national operational performance (booked flights, revenue growth, profit, cost structure) to guide market-specific development.
 *   **SQL/Python Techniques:** Aggregation of booking and financial data by country and office; time-series analysis for revenue growth; percentage calculations for profit distribution.
 *   **Result Snapshot:**
@@ -99,7 +99,7 @@ Three distinct interactive dashboards were developed using Python (Streamlit) to
     *   The relationship between **revenue** and **operating costs** by country directly impacts overall **profitability**. Philippines and Vietnam demonstrate better margins than Indonesia, where the gap is visually smaller. This underscores the need to analyze and manage **cost structures** effectively in each market, especially Indonesia.
 
 
-**Task/Dashboard 2: CEO Overview**
+**Visual Summary 2: CEO Overview**
 *   **Objective:** Offer the Global CEO a holistic view of business operations, class performance, popular destinations, and overall profitability/revenue to support high-level strategic decisions.
 *   **SQL/Python Techniques:** Aggregation by class type, destination, and country; trend analysis for profits; revenue segmentation by ticket type.
 *   **Result Snapshot:**
@@ -124,7 +124,7 @@ Three distinct interactive dashboards were developed using Python (Streamlit) to
     *   *Strategy:* Maintain strong markets (Philippines), drive growth (Vietnam), and improve performance (Indonesia).
 
 
-**Task/Dashboard 3: Customer Analytics**
+**Visual Summary 3: Customer Analytics**
 *   **Objective:** Help Marketing and Customer Service understand passenger demographics (age), class preferences, average ticket prices by country, and weekly booking trends to build effective marketing campaigns and enhance customer service.
 *   **SQL/Python Techniques:** Passenger data aggregation by age groups; calculation of average ticket prices per country; percentage distribution of flight classes; weekly trend analysis of flight bookings.
 *   **Result Snapshot:**
@@ -134,7 +134,21 @@ Three distinct interactive dashboards were developed using Python (Streamlit) to
     <p align="center">
       <img src="https://github.com/user-attachments/assets/10e26e36-bf50-4e32-8a9e-c0e81e13e7dd" alt="Customer Analytics Dashboard 2" width="700">
     </p>
-*   **Key Findings:** Passengers are predominantly in their 20s-30s. Average ticket prices vary significantly by country, with Indonesia being the highest. Business Class is the most preferred. Weekly flight bookings fluctuate, providing customers with information for optimal booking times.
+*   **Key Findings:**
+    **1. SEAAirbus Customer Profile: Young, Prefers Premium, and Willing to Pay.**
+    *   Passengers are predominantly in the **21-30** and **31-40** age groups, suggesting a core of young, dynamic professionals or entrepreneurs.
+    *   The preference for **Business Class** (54.1% share) reflects a demand for comfortable, premium flight experiences, affirming SEAAirbus's positioning.
+    *   *Narrative & Implication:* SEAAirbus is successfully attracting its target demographic – young, successful individuals willing to pay for quality. Marketing should focus on engaging this "golden customer" segment with tailored messaging and channels, emphasizing the premium experience.
+
+    **2. Ticket Prices by Country: Indonesia Leads, but Deeper Analysis Needed.**
+    *   **Indonesia** has the highest average ticket price (>2200), significantly more than the **Philippines** (~1600) and **Vietnam** (~1300).
+    *   This high price could be due to longer routes, a higher proportion of premium class bookings, or a specific pricing strategy. However, when combined with low profit information for Indonesia (from CEO Overview), this suggests a need for deeper analysis of operating costs or the actual revenue structure there.
+    *   *Narrative & Implication:* High ticket prices don't always equal high profits. Understanding cost structures and the actual contribution of each ticket segment in Indonesia is crucial. Other markets might compensate for lower ticket prices with higher volume or cost efficiency.
+
+    **3. Weekly Booking Trends: Understanding the Market "Rhythm".**
+    *   Weekly flight numbers fluctuate significantly by country and month (Sept, Oct, Nov), indicating seasonality and local influencing factors.
+    *   For example, the Philippines might see higher demand mid-September to October, while Vietnam experiences a surge in late November. Indonesia generally maintains lower, less volatile levels.
+    *   *Narrative & Implication:* Understanding this "rhythm" allows SEAAirbus to flexibly adjust flight schedules, allocate resources, and implement timely marketing/promotional campaigns to optimize revenue and meet specific market demands.
 
 ---
 
@@ -142,10 +156,22 @@ Three distinct interactive dashboards were developed using Python (Streamlit) to
 👉🏻 Based on the aggregated insights from the dashboards, SEAAirbus should consider the following strategic directions to optimize its initial operations and drive growth:
 
 📌 **Key Takeaways & Recommendations:**
-*   ✔️ **Targeted Market Strategies:** Develop distinct approaches for promising markets like the Philippines and Vietnam (focus on growth and service enhancement) versus more competitive markets like Indonesia (focus on brand building and niche offerings).
-*   ✔️ **Service Class Optimization:** Leverage the popularity and profitability of Business Class. Explore strategies to increase the appeal and booking volume of Private Class. Analyze Economy Class pricing against competitors to ensure value for a premium airline.
-*   ✔️ **Data-Driven Customer Engagement:** Utilize insights on passenger demographics (e.g., 20-30 age group) and preferences (e.g., Business Class) to tailor marketing campaigns, loyalty programs, and onboard services.
-*   ✔️ **Operational Efficiency:** Continuously monitor booking trends, revenue, and cost metrics via the dashboards to make agile adjustments to flight schedules, pricing, and resource allocation.
+1.  **Smart Market Prioritization:**
+    *   Prioritize resources for high-performing markets like the **Philippines** and **Vietnam**.
+    *   Develop a distinct, breakthrough strategy to unlock **Indonesia's** potential, focusing on cost optimization and demand stimulation.
+
+2.  **Optimized Service Class Experience:**
+    *   Maximize value from **Private Class** with exclusive offerings.
+    *   Reinforce **Business Class** as the top choice for young, successful professionals.
+    *   Ensure the competitiveness and efficiency of **Economy Class** for a stable passenger flow.
+
+3.  **Agile Marketing & Demand Management:**
+    *   Target marketing efforts towards the **21-40 age demographic**, emphasizing premium experiences.
+    *   Leverage **weekly booking trend** data for dynamic scheduling, pricing, and promotions, especially for **key routes** (Manila, Hanoi, HCMC).
+
+4.  **Cultivate Data-Driven Decision-Making:**
+    *   Encourage data utilization across all operational and business decisions.
+    *   Continuously refine analytical systems and track **KPIs** for ongoing optimization.
 
 ---
 
