@@ -73,14 +73,14 @@ This project involved a comprehensive workflow from database conceptualization t
 ### 2️⃣ Dashboard Development (SQL & Python with Streamlit)
 Three distinct interactive dashboards were developed using Python (Streamlit) to query (via SQL) and visualize data from the SQL Server database. Each dashboard was tailored for a specific user role and analytical purpose, leveraging SQL techniques like `GROUP BY`, `ORDER BY`, `JOIN`, and subqueries.
 
-**Visual Summary 1: Local CEO Insights**
+### Visual Summary 1: Local CEO Insights
 *   **Objective:** Provide Local CEOs (Vietnam, Philippines, Indonesia) with an overview of their respective national operational performance (booked flights, revenue growth, profit, cost structure) to guide market-specific development.
 *   **SQL/Python Techniques:** Aggregation of booking and financial data by country and office; time-series analysis for revenue growth; percentage calculations for profit distribution.
 *   **Result Snapshot:**
     <p align="center">
       <img src="https://github.com/user-attachments/assets/7da3916e-116b-4cbc-aeef-beb3aa3f342c" alt="Local CEO Dashboard" width="700">
     </p>
-*   **Key Findings:**
+### Key Findings:
 *   **Overall Market Snapshot:** Performance varies significantly across the three key Southeast Asian markets.
     *   **Philippines:** Leads impressively in **booked flights** (~140) and dominates **profit share** (43.7%), indicating strong market demand and effective profit conversion. While having the highest revenue and operating costs, it maintains a healthy profit margin.
         *   *Focus: Maintain momentum, explore cost optimization.*
@@ -99,14 +99,14 @@ Three distinct interactive dashboards were developed using Python (Streamlit) to
     *   The relationship between **revenue** and **operating costs** by country directly impacts overall **profitability**. Philippines and Vietnam demonstrate better margins than Indonesia, where the gap is visually smaller. This underscores the need to analyze and manage **cost structures** effectively in each market, especially Indonesia.
 
 
-**Visual Summary 2: CEO Overview**
+### Visual Summary 2: CEO Overview
 *   **Objective:** Offer the Global CEO a holistic view of business operations, class performance, popular destinations, and overall profitability/revenue to support high-level strategic decisions.
 *   **SQL/Python Techniques:** Aggregation by class type, destination, and country; trend analysis for profits; revenue segmentation by ticket type.
 *   **Result Snapshot:**
     <p align="center">
       <img src="https://github.com/user-attachments/assets/d1dfd970-d896-4679-b36c-8860d962c1af" alt="CEO Overview Dashboard" width="700">
     </p>
-*   **Key Findings:**
+### Key Findings:
 *   **Ticket Class: Volume vs. Revenue**
     *   **Booking Volume:** **Business Class** (~170+) and **Economy Class** (~140+) bookings dominate, indicating popular choices. **Private Class** has very few bookings.
     *   **Revenue:** Conversely, **Private Class** contributes outstanding revenue (over 1M units), significantly higher than Business Class (~0.2M) and Economy Class.
@@ -124,7 +124,7 @@ Three distinct interactive dashboards were developed using Python (Streamlit) to
     *   *Strategy:* Maintain strong markets (Philippines), drive growth (Vietnam), and improve performance (Indonesia).
 
 
-**Visual Summary 3: Customer Analytics**
+### Visual Summary 3: Customer Analytics
 *   **Objective:** Help Marketing and Customer Service understand passenger demographics (age), class preferences, average ticket prices by country, and weekly booking trends to build effective marketing campaigns and enhance customer service.
 *   **SQL/Python Techniques:** Passenger data aggregation by age groups; calculation of average ticket prices per country; percentage distribution of flight classes; weekly trend analysis of flight bookings.
 *   **Result Snapshot:**
@@ -134,7 +134,7 @@ Three distinct interactive dashboards were developed using Python (Streamlit) to
     <p align="center">
       <img src="https://github.com/user-attachments/assets/10e26e36-bf50-4e32-8a9e-c0e81e13e7dd" alt="Customer Analytics Dashboard 2" width="700">
     </p>
-*   **Key Findings:**
+### Key Findings:
     **1. SEAAirbus Customer Profile: Young, Prefers Premium, and Willing to Pay.**
     *   Passengers are predominantly in the **21-30** and **31-40** age groups, suggesting a core of young, dynamic professionals or entrepreneurs.
     *   The preference for **Business Class** (54.1% share) reflects a demand for comfortable, premium flight experiences, affirming SEAAirbus's positioning.
